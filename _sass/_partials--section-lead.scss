@@ -1,0 +1,76 @@
+$color--brand:        #424242;
+$color--brand-blue:   #006699;
+
+@font-face {
+  font-family: Norwester;
+  src: url("/fonts/norwester.otf") format("opentype");
+}
+
+.section-lead {
+  background-image: -webkit-linear-gradient(175deg, rgba(59, 207, 253, .7), rgba(66, 255, 112, .56));
+  background-image: linear-gradient(275deg, rgba(59, 207, 253, .7), rgba(66, 255, 112, .56));
+  padding: $pad*16 0;
+  text-align: center;
+
+  .logo {
+    position: relative;
+
+    img.gorilla {
+      width: 60%;
+      height: 60%;
+    }
+
+    .brand {
+      font-family: 'Norwester';
+      font-size: 160%;
+      font-weight: 700;
+      margin-top: -$space*2;
+      color: $color--brand;
+
+      .big, .monkeys {
+        display: inline-block;
+      }
+
+      .big {
+        color: $color--brand-blue;
+      }
+    }
+  }
+
+  @media #{$from-small-resolutions} {
+    padding: $pad*16 0;
+
+    .logo {
+      img.gorilla {
+        width: 25%;
+        height: 25%;
+      }
+    }
+  }
+
+  @media #{$from-medium-resolutions} {
+    padding: $pad*19 0;
+
+    .logo {
+      img.gorilla {
+        width: 25%;
+        height: 25%;
+      }
+    }
+  }
+
+  @media #{$from-large-resolutions} {
+    padding: $pad*22 0;
+
+    .logo {
+      img.gorilla {
+        width: 15%;
+        height: 15%;
+      }
+
+      .brand {
+        font-size: 200%;
+      }
+    }
+  }
+}

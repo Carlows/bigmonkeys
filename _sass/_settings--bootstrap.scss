@@ -16,7 +16,7 @@ $brand-secondary:                 $color--accent;
 $body-bg-transparent:             false;
 
 $body-bg:                         null;
-$text-color:                      $custom-black;
+$text-color:                      $black;
 $link-color:                      $brand-primary;
 $link-hover-color:                null;
 $link-hover-decoration:           none;
@@ -37,13 +37,3 @@ $padding-large-horizontal:        30px;
 // Buttons
 
 $btn-primary-border:              $brand-primary;
-
-// Forms
-
-$input-border:                    $aluminium;
-$input-color:                     $aluminium;
-$input-color-placeholder:         $aluminium;
-$input-border-focus:              $color--accent;
-$input-bg:                        transparent;
-$form-group-margin-bottom:        30px;
-$input-height-small:              75px;
