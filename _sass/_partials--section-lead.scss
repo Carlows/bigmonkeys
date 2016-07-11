@@ -3,7 +3,7 @@ $color--brand-blue:   #006699;
 
 @font-face {
   font-family: Norwester;
-  src: url("/fonts/norwester.otf") format("opentype");
+  src: url($base-url + "/fonts/norwester.otf") format("opentype");
 }
 
 .section-lead {
