@@ -18,6 +18,3 @@ sass:
   sass_dir: _sass
 
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
-
-gems:
-  - jekyll-bootstrap-sass

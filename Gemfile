@@ -4,5 +4,4 @@ source "https://rubygems.org"
 
 # gem "rails"
 gem "jekyll"
-gem "jekyll-bootstrap-sass"
 gem "github-pages"
