@@ -7,7 +7,7 @@
 
 # Site settings
 title: BigMonkeys
-baseurl: ""
+baseurl: /bigmonkeys
 
 # Build settings
 markdown: kramdown
