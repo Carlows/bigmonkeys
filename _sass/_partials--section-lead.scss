@@ -11,6 +11,7 @@ $color--brand-blue:   #006699;
   background-image: linear-gradient(275deg, rgba(59, 207, 253, .7), rgba(66, 255, 112, .56));
   padding: $pad*16 0;
   text-align: center;
+  height: 100vh;
 
   .logo {
     position: relative;
