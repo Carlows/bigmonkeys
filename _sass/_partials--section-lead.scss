@@ -9,7 +9,6 @@ $color--brand-blue:   #006699;
 .section-lead {
   background-image: -webkit-linear-gradient(175deg, rgba(59, 207, 253, .7), rgba(66, 255, 112, .56));
   background-image: linear-gradient(275deg, rgba(59, 207, 253, .7), rgba(66, 255, 112, .56));
-  padding: $pad*16 0;
   text-align: center;
   height: 100vh;
 
@@ -39,7 +38,6 @@ $color--brand-blue:   #006699;
   }
 
   @media #{$from-small-resolutions} {
-    padding: $pad*16 0;
 
     .logo {
       img.gorilla {
@@ -50,7 +48,6 @@ $color--brand-blue:   #006699;
   }
 
   @media #{$from-medium-resolutions} {
-    padding: $pad*19 0;
 
     .logo {
       img.gorilla {
@@ -61,7 +58,6 @@ $color--brand-blue:   #006699;
   }
 
   @media #{$from-large-resolutions} {
-    padding: $pad*22 0;
 
     .logo {
       img.gorilla {
