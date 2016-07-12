@@ -29,6 +29,8 @@ $color--brand-blue:   #006699;
 
       .big, .monkeys {
         display: inline-block;
+        overflow: hidden;
+        position: relative;
       }
 
       .big {
