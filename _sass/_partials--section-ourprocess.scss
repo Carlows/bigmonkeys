@@ -1,0 +1,24 @@
+$color--background:				$color--accent;
+
+.section-ourprocess {
+  background-color: $color--background;
+  padding: $pad*8 0;
+  color: $color--text;
+
+  h1.title, h3.subtitle {
+    color: $white-smoke;
+    letter-spacing: 5px;
+  }
+
+  .title {
+    font-size: 100%;
+  }
+
+  .subtitle {
+    font-size: 80%;
+  }
+}
+
+.processes {
+  margin-top: $space*2;
+}
