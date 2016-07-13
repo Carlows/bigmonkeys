@@ -1,0 +1,16 @@
+title: WHAT WE DO
+
+web:
+  imgurl: /images/responsive-design-symbol.svg
+  title: WEB DEVELOPMENT
+  text: We create fully responsive web applications that run everywhere.
+
+mobile:
+  imgurl: /images/smartphone.svg
+  title: MOBILE DEVELOPMENT
+  text: We create Android/iOS applications with amazing performance.
+
+games:
+  imgurl: /images/pacman.svg
+  title: GAME DEVELOPMENT
+  text: Yup, we're into that too. We love games, we love them so much we create our own.

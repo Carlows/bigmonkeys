@@ -1,0 +1,33 @@
+<section class="section-whatwedo">
+	<div class="container text-center">
+		<div class="row">
+			<div class="col-xs-12">
+				<h1 class="wow fadeIn lapse-one title">{{ site.data.section-whatwedo.title }}</h1>
+
+				<div class="row cards-container">
+					<div class="col-xs-12 col-sm-4">
+						<div class="wow fadeIn lapse-three whatwedo-card">
+							<img src="{{ site.data.section-whatwedo.web.imgurl | prepend: site.baseurl }}" class="wow tada lapse-three">
+							<h3 class="card-title">{{ site.data.section-whatwedo.web.title }}</h3>
+              <p class="card-text">{{ site.data.section-whatwedo.web.text }}</p>							
+						</div>
+					</div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="wow fadeIn lapse-four whatwedo-card">
+              <img src="{{ site.data.section-whatwedo.mobile.imgurl | prepend: site.baseurl }}" class="wow tada lapse-four">
+              <h3 class="card-title">{{ site.data.section-whatwedo.mobile.title }}</h3>
+              <p class="card-text">{{ site.data.section-whatwedo.mobile.text }}</p>              
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="wow fadeIn lapse-five whatwedo-card">
+              <img src="{{ site.data.section-whatwedo.games.imgurl | prepend: site.baseurl }}" class="wow tada lapse-five">
+              <h3 class="card-title">{{ site.data.section-whatwedo.games.title }}</h3>
+              <p class="card-text">{{ site.data.section-whatwedo.games.text }}</p>              
+            </div>
+          </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
