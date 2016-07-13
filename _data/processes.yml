@@ -1,0 +1,19 @@
+- title: CONSTANT COMMUNICATION
+  text: To ensure every aspect of our products go the way our clients need them, we keep constant communication with them. Weekly meetings, a fully opened project board where our clients can see the progress, and a 100% of commitment allow us to do it the best way possible.
+  imgurl: /images/interview.svg
+  index: one
+
+- title: WEEKLY ITERATIONS
+  text: We do weekly iterations prioritizing features that are the most valuable for our clients so we can fully focus on what's most important for them.
+  imgurl: /images/weekly.svg
+  index: one
+
+- title: AUTOMATED TESTING
+  text: To create maintanable apps we need to be able to be confident each time we make changes in our codebase, because of this we make use of automated testing so we can cover all our modules and integrations with tests that run lightning fast.
+  imgurl: /images/testing.svg
+  index: two
+
+- title: DAILY CODE REVIEWS
+  text: Every feature our developers implement get through an intensive code review and Q&A testing to ensure it works as it's expected. We do this on a daily basis and ensure no code gets merged without first passing this review.
+  imgurl: /images/review.svg
+  index: two
