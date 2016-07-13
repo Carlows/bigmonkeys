@@ -30,6 +30,8 @@
  * Components
  */
 
+@import 'components--process';
+
 
 /**
  * Layouts
@@ -43,3 +45,4 @@
 @import 'partials--section-lead';
 @import 'partials--section-whoweare';
 @import 'partials--section-whatwedo';
+@import 'partials--section-ourprocess';
