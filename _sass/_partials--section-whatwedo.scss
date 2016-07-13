@@ -1,0 +1,67 @@
+$color--text:			$color--text-secondary;
+
+.section-whatwedo {
+  padding: $pad*8 0;
+  color: $color--text;
+
+  .title {
+    color: $color--text;
+    font-size: 140%;
+    letter-spacing: 5px;
+  }
+}
+
+.whatwedo-card {
+  margin-top: $space*4;
+
+  img {
+    width: 30%;
+  }
+
+  .card-title {
+    margin-top: $space*2;
+    color: $color--text;
+    font-size: 100%;
+  }
+
+  .card-text {
+    font-size: 60%;
+  }
+}
+
+@media #{$from-small-resolutions} {
+  .section-whatwedo {
+
+    .whatwedo-card {
+      border-radius: 2px;
+
+      .card-title {
+        font-size: 70%;
+      }
+    }
+
+    .cards-container {
+      margin-top: $space*2;
+    }
+  }
+}
+
+@media #{$from-medium-resolutions} {
+  .section-whatwedo {
+
+    .whatwedo-card {
+
+      img {
+        width: 25%;
+      }
+
+      .card-title {
+        font-size: 100%;
+      }
+
+      .card-text {
+        font-size: 80%;
+      }
+    }
+  }
+}
