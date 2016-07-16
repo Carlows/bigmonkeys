@@ -1,0 +1,198 @@
+$color--text:			$color--text-secondary;
+
+.section-ourtools {
+  padding: $pad*8 0;
+  color: $color--text;
+
+  .title {
+    color: $color--text;
+    font-size: 120%;
+    letter-spacing: 1px;
+  }
+
+  .subtitle {
+  	color: $color--text;
+  	font-size: 80%;
+  }
+
+  .tools {
+  	margin-top: $space*2;
+  }
+}
+
+.practices {
+	h2.title--practice {
+		color: $color--text;
+		font-size: 100%;
+	}
+
+	h3.subtitle--practice {
+		color: $color--text;
+		font-size: 80%;
+	}
+
+	padding: 0 $pad-double;
+
+	p {
+		font-size: 70%;
+	}
+
+	.icon-green {
+		color: #25AE88;
+		vertical-align: middle;
+		margin-right: $space*2;
+	}
+}
+
+@media #{$from-small-resolutions} {
+	.section-ourtools {
+		.title {
+			font-size: 100%;
+			letter-spacing: 5px;
+		}
+
+		.subtitle {
+			font-size: 80%;
+			letter-spacing: 5px;
+		}
+	}
+
+	.rowcode {
+		margin-top: $space*4;
+		padding: 0 $pad-double;
+	}
+
+	.reactcode > img {
+		border-radius: 2px;
+  		box-shadow: 3px 3px 14px 1px #000;
+	}
+
+	.practices {
+		h2.title--practice {
+			font-size: 80%;
+		}
+
+		h3.subtitle--practice {
+			font-size: 65%;
+		}
+
+		p {
+			font-size: 50%;
+		}
+
+		.icon-green {
+			margin-right: $space-half;
+		}
+	}
+}
+
+@media #{$from-medium-resolutions} {
+	.section-ourtools {
+		.title {
+			font-size: 100%;
+			letter-spacing: 5px;
+		}
+
+		.subtitle {
+			font-size: 80%;
+			letter-spacing: 5px;
+		}
+	}
+
+	.rowcode {
+		margin-top: $space*4;
+		padding: 0 $pad-double;
+	}
+
+	.reactcode > img {
+		border-radius: 2px;
+  	box-shadow: 3px 3px 14px 1px #000;
+  	width: 80%;
+	}
+
+	.practices {
+		margin-top: $space*4;
+
+		h2.title--practice {
+			font-size: 100%;
+			letter-spacing: 3px;
+		}
+
+		h3.subtitle--practice {
+			font-size: 80%;
+			letter-spacing: 3px;
+		}
+
+		p {
+			font-size: 60%;
+		}
+
+		.icon-green {
+			margin-right: $space-half;
+		}
+
+		.practiceitem {
+			text-align: center;
+		}
+
+		.practicesrow {
+			margin-top: $space*4;
+		}
+	}
+}
+
+@media #{$from-large-resolutions} {
+	.section-ourtools {
+		.title {
+			font-size: 100%;
+			letter-spacing: 5px;
+		}
+
+		.subtitle {
+			font-size: 80%;
+			letter-spacing: 5px;
+		}
+	}
+
+	.rowcode {
+		margin-top: $space*4;
+		padding: 0 $pad-double;
+	}
+
+	.reactcode > img {
+		border-radius: 2px;
+  	box-shadow: 3px 3px 14px 1px #000;
+  	width: 80%;
+	}
+
+	.practices {
+		margin-top: $space*10;
+
+		h2.title--practice {
+			font-size: 110%;
+			letter-spacing: 3px;
+		}
+
+		h3.subtitle--practice {
+			font-size: 80%;
+			letter-spacing: 3px;
+		}
+
+		p {
+			font-size: 70%;
+			letter-spacing: 3px;
+		}
+
+		.icon-green {
+			margin-right: $space-half;
+		}
+
+		.practiceitem {
+			text-align: center;
+		}
+
+		.practicesrow {
+			margin-top: $space*4;
+		}
+	}
+}
