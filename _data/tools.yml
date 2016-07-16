@@ -1,0 +1,17 @@
+- text: JAVASCRIPT
+  imgurl: /images/javascript.png
+
+- text: BOOTSTRAP
+  imgurl: /images/bootstrap.svg
+
+- text: UNITY 5
+  imgurl: /images/unity5.png
+
+- text: GOLANG
+  imgurl: /images/golang.png
+
+- text: REACT.JS
+  imgurl: /images/react.svg
+
+- text: SASS
+  imgurl: /images/sass.png

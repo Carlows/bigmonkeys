@@ -1,0 +1,47 @@
+<section class="section-ourtools text-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="head wow fadeIn lapse-one">
+					<h1 class="title">{{ site.data.section-ourtools.title }}</h1>
+					<h3 class="subtitle">{{ site.data.section-ourtools.subtitle }}</h3>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="tools wow fadeIn lapse-two">
+			        <ul class="tools-lister">
+			          {% for tool in site.data.tools %}
+			          <li class="tool-item">
+			            <img class="image" src="{{ tool.imgurl | prepend: site.baseurl  }}" alt="{{ tool.text }}" />
+			            <p>{{tool.text}}</p>
+			          </li>
+			          {% endfor %}
+			        </ul>
+			      </div>
+			</div>
+		</div>
+		<div class="row rowcode">
+			<div class="hidden-xs col-sm-6">
+				<div class="reactcode wow fadeInLeft lapse-two">
+					<img src="{{ '/images/reactcode2.png' | prepend: site.baseurl }}" class="reactcodeimg" />
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6">
+				<div class="practices wow fadeIn lapse-one">
+					<h2 class="title--practice">{{site.data.section-ourtools.practices.title}}</h2>
+					<h3 class="subtitle--practice">{{site.data.section-ourtools.practices.subtitle}}</h3>
+
+					<div class="row practicesrow">
+					{% for practice in site.data.practices %}
+						<div class="col-xs-12 col-sm-6 text-left wow fadeIn lapse-two">
+							<p class="practiceitem"><i class="material-icons icon-green">check_circle</i>{{practice.text}}</p>
+						</div>
+					{% endfor %}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
