@@ -1,0 +1,29 @@
+$color--background:		 $color--accent;
+$color--brand:       	 #424242;
+$color--brand-blue:  	 #006699;
+
+@font-face {
+  font-family: Norwester;
+  src: url($base-url + "/fonts/norwester.otf") format("opentype");
+}
+
+.section-footer {
+	padding: $pad*8 0;
+	background-color: $color--background;
+	color: $color--text;
+
+	.footer-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		font-family: 'Norwester';
+		font-size: 160%;
+		font-weight: 700;
+		color: $color--brand;
+	}
+
+	.big {
+		color: $color--brand-blue;
+	}
+}
